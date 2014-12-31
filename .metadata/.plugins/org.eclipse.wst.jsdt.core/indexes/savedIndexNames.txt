@@ -3,4 +3,3 @@ INDEX VERSION 1.122+C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.
 746203920.index
 1253764980.index
 2731666806.index
-453194506.index

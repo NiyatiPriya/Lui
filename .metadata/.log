@@ -1,0 +1,228 @@
+
+!ENTRY org.eclipse.core.resources 4 568 2014-12-31 11:13:04.242
+!MESSAGE Could not write metadata for '/'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.root\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1662)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1145)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1087)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2014-12-31 11:18:05.463
+!MESSAGE Could not save master table to file 'C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources (The system cannot find the path specified)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1198)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1175)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1087)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2014-12-31 11:42:26.492
+!MESSAGE Could not save master table to file 'C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources (The system cannot find the path specified)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1198)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1175)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1087)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.255
+!MESSAGE NLS unused message: add_script_load_bp in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.255
+!MESSAGE NLS unused message: bp_conditional in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.256
+!MESSAGE NLS unused message: bp_conditonal in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.256
+!MESSAGE NLS unused message: bp_entry_and_exit in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.256
+!MESSAGE NLS unused message: bp_entry_only in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.256
+!MESSAGE NLS unused message: bp_exit_only in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.256
+!MESSAGE NLS unused message: bp_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.257
+!MESSAGE NLS unused message: bp_line_number in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.257
+!MESSAGE NLS unused message: bp_suspend_vm in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.257
+!MESSAGE NLS unused message: breakpoint_configuration in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.257
+!MESSAGE NLS unused message: connect in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.257
+!MESSAGE NLS unused message: connector in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.258
+!MESSAGE NLS unused message: connector_properties in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.258
+!MESSAGE NLS unused message: creating_script_load_bp in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.258
+!MESSAGE NLS unused message: enable_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.258
+!MESSAGE NLS unused message: enter_new_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.259
+!MESSAGE NLS unused message: exception_occurred_setting_bp_properties in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.259
+!MESSAGE NLS unused message: hit_count_must_be_positive in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.259
+!MESSAGE NLS unused message: no_description_provided in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.259
+!MESSAGE NLS unused message: scripts in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.259
+!MESSAGE NLS unused message: select_javascript_file in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.260
+!MESSAGE NLS unused message: set_bp_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.260
+!MESSAGE NLS unused message: suspend_target in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.260
+!MESSAGE NLS unused message: suspend_thread in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.260
+!MESSAGE NLS unused message: the_argument_0_is_not_valid in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-12-31 11:42:29.260
+!MESSAGE NLS unused message: osgi.nls.warnings in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2014-12-31 11:43:16.164
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:662)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:653)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.mylyn\tasks.xml.zip (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2014-12-31 11:43:16.169
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.mylyn\tasks.xml.zip (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:662)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:653)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2014-12-31 11:48:25.088
+!MESSAGE Could not save master table to file 'C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources (The system cannot find the path specified)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1198)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1175)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1087)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2014-12-31 11:53:35.290
+!MESSAGE Could not save master table to file 'C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources (The system cannot find the path specified)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1198)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1175)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1087)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2014-12-31 11:56:47.532
+!MESSAGE Could not save master table to file 'C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak (The system cannot find the path specified)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.SaveManager.cleanMasterTable(SaveManager.java:206)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1116)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2006)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:502)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-12-31 11:56:49.492
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-12-31 11:56:49.492
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 566 2014-12-31 11:56:49.492
+!MESSAGE Could not save master table to file 'C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sys18\git_sample\sample_git\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources (The system cannot find the path specified)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1198)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1175)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2006)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:502)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
